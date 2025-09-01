@@ -1,0 +1,8 @@
+---
+description: Нюансы для .py (подключать, когда работаем с Python-файлами)
+globs:
+  - "**/*.py"
+alwaysApply: false
+---
+• Используй requests.get(..., timeout=20–30); r.raise_for_status().
+• При сетевых ошибках — дружелюбное сообщение сверху над исключением.

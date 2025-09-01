@@ -1,0 +1,6 @@
+---
+description: Шаблон сервиса (включать вручную по @service-template)
+alwaysApply: false
+---
+• Создай сервис по нашему шаблону; следуй пунктам из @service-template.ts.
+

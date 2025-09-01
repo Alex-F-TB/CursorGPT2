@@ -1,0 +1,16 @@
+---
+description: Общие договорённости по проекту (всегда включать)
+alwaysApply: true
+---
+• Python 3.12 (Windows); CLI — Typer; HTTP — requests (timeout 20–30s); таблицы — pandas (CSV UTF-8, index=False).
+• Не меняем публичные флаги CLI без подтверждения; формат вывода сохраняем.
+• Комментарии и docstring — на русском; типы — явные (list[str], dict[str, Any], None | str).
+• Пути — pathlib; .venv и .vscode/settings.json без явного запроса не трогаем.
+• Новые зависимости — в requirements.txt; тяжёлые библиотеки только с обоснованием.
+• Перед многофайловыми правками — короткий план (файл → что меняем → почему).
+
+
+
+
+
+
